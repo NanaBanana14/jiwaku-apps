@@ -8,12 +8,49 @@
 
 Pastikan Anda sudah menginstal perangkat lunak berikut sebelum menjalankan proyek ini:
 
+- **Git**: Untuk mengelola repositori versi kontrol.
 - **NVM (Node Version Manager)**: Untuk mengelola versi Node.js.
 - **Node.js dan npm**: Menggunakan NVM untuk menginstal dan mengelola versi Node.js.
 
 ## Installation
 
 Ikuti langkah-langkah berikut untuk menginstal dan mengatur proyek ini:
+
+### Instal Git
+
+1. **Instal Git**  
+   Instal Git sesuai dengan sistem operasi Anda:
+
+   - **Ubuntu/Debian**:
+
+     ```bash
+     sudo apt-get update
+     sudo apt-get install git
+     ```
+
+   - **Fedora**:
+
+     ```bash
+     sudo dnf install git
+     ```
+
+   - **macOS**:
+
+     ```bash
+     brew install git
+     ```
+
+   - **Windows**:
+     Unduh dan instal [Git untuk Windows](https://git-scm.com/download/win).
+
+2. **Verifikasi Instalasi Git**  
+   Pastikan Git telah terinstal dengan benar:
+
+   ```bash
+   git --version
+   ```
+
+### Instal NVM dan Node.js
 
 1. **Instal NVM**  
    Instal NVM (Node Version Manager) dengan menjalankan perintah berikut di terminal:
@@ -43,7 +80,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan mengatur proyek ini:
    nvm use node
    ```
 
-5. **Verifikasi Instalasi**  
+5. **Verifikasi Instalasi Node.js dan npm**  
    Pastikan Node.js dan npm telah terinstal dengan benar:
 
    ```bash
@@ -116,6 +153,8 @@ Setelah melakukan fork, Anda dapat meng-clone repositori ke mesin lokal Anda unt
    git clone https://github.com/NanaBanana14/jiwaku-apps.git
    ```
 
+   Gantilah `username` dengan nama pengguna GitHub Anda.
+
 2. Masuk ke direktori proyek yang dibuat:
 
    ```bash
@@ -130,7 +169,7 @@ Setelah melakukan fork, Anda dapat meng-clone repositori ke mesin lokal Anda unt
 
 ## Contributing
 
-Untuk berkontribusi pada proyek **Jiwa Ku Care**, ikuti langkah-langkah berikut:
+Kami menyambut kontribusi dari komunitas! Untuk berkontribusi pada proyek **Jiwa Ku Care**, ikuti langkah-langkah berikut:
 
 1. **Fork repositori** dan buat salinan lokal.
 2. **Buat branch baru** untuk fitur atau perbaikan:
