@@ -153,8 +153,6 @@ Setelah melakukan fork, Anda dapat meng-clone repositori ke mesin lokal Anda unt
    git clone https://github.com/NanaBanana14/jiwaku-apps.git
    ```
 
-   Gantilah `username` dengan nama pengguna GitHub Anda.
-
 2. Masuk ke direktori proyek yang dibuat:
 
    ```bash
