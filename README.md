@@ -113,12 +113,10 @@ Setelah melakukan fork, Anda dapat meng-clone repositori ke mesin lokal Anda unt
 1. Buka terminal Anda dan jalankan perintah berikut untuk meng-clone repositori:
 
    ```bash
-   git clone https://github.com/username/Jiwa-Ku-Care.git
+   git clone https://github.com/NanaBanana14/jiwaku-apps.git
    ```
 
-   Gantilah `username` dengan nama pengguna GitHub Anda.
-
-2. Masuk ke direktori proyek:
+2. Masuk ke direktori proyek yang dibuat:
 
    ```bash
    cd Jiwa-Ku-Care
@@ -130,27 +128,25 @@ Setelah melakukan fork, Anda dapat meng-clone repositori ke mesin lokal Anda unt
    npm install
    ```
 
-4. Mulailah bekerja pada proyek Anda!
-
 ## Contributing
 
-Kami menyambut kontribusi dari komunitas! Untuk berkontribusi pada proyek **Jiwa Ku Care**, ikuti langkah-langkah berikut:
+Untuk berkontribusi pada proyek **Jiwa Ku Care**, ikuti langkah-langkah berikut:
 
 1. **Fork repositori** dan buat salinan lokal.
-2. **Buat branch baru** untuk fitur atau perbaikan Anda:
+2. **Buat branch baru** untuk fitur atau perbaikan:
 
    ```bash
    git checkout -b fitur-atau-perbaikan-baru
    ```
 
 3. **Lakukan perubahan** dan pastikan semua pengujian berhasil.
-4. **Commit perubahan Anda** dengan pesan yang jelas:
+4. **Commit perubahan** dengan pesan yang jelas:
 
    ```bash
    git commit -m "Menambahkan fitur X atau Memperbaiki masalah Y"
    ```
 
-5. **Push branch Anda** ke repositori forked Anda:
+5. **Push branch** ke repositori forked:
 
    ```bash
    git push origin fitur-atau-perbaikan-baru
